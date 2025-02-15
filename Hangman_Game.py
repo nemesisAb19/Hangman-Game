@@ -57,7 +57,7 @@ def Hangman_Game():
             print("Please enter a single letter, space, or hyphen.\n")
             continue
 
-        # validation for, if the user types a letter that is already guessed
+        # validation for,if the user types a letter that is already guessed
         if guess in guessed_letters:
             print(f"You already guessed the letter '{guess}', try another one.")
             continue
