@@ -15,6 +15,7 @@ A simple command-line Hangman game built using Python. This game randomly select
 
 ### 📂 Project Structure
 /Hangman-Game
+
 │── Hangman_Game.py   # Main game logic
 │── WordsList.py      # List of country names used for word selection
 │── README.md         # Project documentation
