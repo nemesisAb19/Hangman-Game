@@ -2,9 +2,6 @@
 from WordsList import words
 import random
 
-#words = ("apple", "orange","kiwi", "banana","guava", "pineapple", "watermelon")
-
-# dictionary of key: ()
 hangman_art = {0: ("        ",
                    "        ",
                    "        "),
@@ -43,7 +40,7 @@ def display_answer(answer):
 def Hangman_Game():
     answer = random.choice(words).lower()
     #hint = ["_"] * len(answer)
-    hint = ["_" if char.isalpha() else char for char in answer]  # Keep spaces & hyphens visible
+    hint = ["_" if char.isalpha() else char for char in answer]  
     wrong_guesses = 0
     guessed_letters = set()
     is_running = True
