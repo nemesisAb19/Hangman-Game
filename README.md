@@ -14,5 +14,23 @@ A simple command-line Hangman game built using Python. This game randomly select
 
 
 ### 📂 Project Structure
-/Hangman-Game │── Hangman_Game.py # Main game logic │── WordsList.py # List of country names used for word selection │── README.md # Project documentation
+/Hangman-Game
+│── Hangman_Game.py   # Main game logic
+│── WordsList.py      # List of country names used for word selection
+│── README.md         # Project documentation
 
+
+### 🎮 How to Run the Game
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Hangman-Game.git
+
+2. Navigate to the project folder:
+   cd Hangman-Game
+
+3. Run the game:
+   python Hangman_Game.py
+
+
+### 📜 License
+This project is open-source and free to use.
