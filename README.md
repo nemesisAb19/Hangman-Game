@@ -2,7 +2,7 @@
 A simple command-line Hangman game built using Python. This game randomly selects a word from a predefined list and allows the user to guess letters. The game dynamically displays the Hangman figure based on incorrect guesses.
 
 
-###🚀 Features
+### 🚀 Features
 - Random word selection from a list of countries.
   - Uses country names from `WordsList.py`
   - Converts words to lowercase for uniformity
