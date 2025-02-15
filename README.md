@@ -26,7 +26,7 @@ A simple command-line Hangman game built using Python. This game randomly select
 ### 🎮 How to Run the Game
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Hangman-Game.git
+   git clone https://github.com/nemesisAb19/Hangman-Game.git
 
 2. Navigate to the project folder:
    cd Hangman-Game
